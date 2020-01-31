@@ -76,7 +76,7 @@ namespace PG_Conditional_Statement
                     Console.WriteLine("You have entered " + grade + "% ");
                     Console.WriteLine("Your expected letter grade is D-");
                 }
-                else if (grade <= 59)
+                else if (grade <= 59 && grade >=0)
                 {
                     Console.WriteLine("You have entered " + grade + "% ");
                     Console.WriteLine("Your expected letter grade is F");
